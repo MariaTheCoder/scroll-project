@@ -1,5 +1,5 @@
 console.log("Hello World");
 
-window.onscroll = () => {
+window.addEventListener("scroll", () => {
   console.log("Hey, you just scrolled!");
-};
+});
